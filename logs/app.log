@@ -1,0 +1,381 @@
+[2025-08-28T10:51:09.176Z] [INFO] Loaded 0 alarms from storage
+[2025-08-28T10:51:09.199Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:8000
+[2025-08-28T10:51:09.201Z] [INFO] Configuration loaded successfully
+[2025-08-28T10:51:09.201Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T10:51:11.767Z] [INFO] GET /api/stats - 172.31.87.2
+[2025-08-28T10:51:11.921Z] [INFO] GET /api/alarms - 172.31.87.2
+[2025-08-28T10:51:12.073Z] [INFO] POST /api/test-connections - 172.31.87.2
+[2025-08-28T10:51:47.238Z] [INFO] Loaded 0 alarms from storage
+[2025-08-28T10:51:47.247Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:8000
+[2025-08-28T10:51:47.247Z] [INFO] Configuration loaded successfully
+[2025-08-28T10:51:47.248Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T10:51:48.950Z] [INFO] GET /api/stats - 172.31.87.2
+[2025-08-28T10:51:49.109Z] [INFO] GET /api/alarms - 172.31.87.2
+[2025-08-28T10:51:49.259Z] [INFO] POST /api/test-connections - 172.31.87.2
+[2025-08-28T10:52:17.294Z] [INFO] Loaded 0 alarms from storage
+[2025-08-28T10:52:17.308Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:8000
+[2025-08-28T10:52:17.308Z] [INFO] Configuration loaded successfully
+[2025-08-28T10:52:17.309Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T10:52:19.057Z] [INFO] GET /api/stats - 172.31.87.2
+[2025-08-28T10:52:19.209Z] [INFO] GET /api/alarms - 172.31.87.2
+[2025-08-28T10:52:19.361Z] [INFO] POST /api/test-connections - 172.31.87.2
+[2025-08-28T10:52:49.957Z] [INFO] GET /api/stats - 172.31.87.2
+[2025-08-28T10:52:49.965Z] [INFO] GET /api/alarms - 172.31.87.2
+[2025-08-28T10:53:35.706Z] [INFO] Loaded 0 alarms from storage
+[2025-08-28T10:53:35.730Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T10:53:35.730Z] [INFO] Configuration loaded successfully
+[2025-08-28T10:53:35.730Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T10:54:05.766Z] [INFO] Loaded 0 alarms from storage
+[2025-08-28T10:54:05.790Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T10:54:05.791Z] [INFO] Configuration loaded successfully
+[2025-08-28T10:54:05.792Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T10:54:06.612Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T11:49:03.998Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T11:49:04.000Z] [INFO] Process terminated
+[2025-08-28T11:49:05.740Z] [INFO] Loaded 0 alarms from storage
+[2025-08-28T11:49:05.753Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T11:49:05.753Z] [INFO] Configuration loaded successfully
+[2025-08-28T11:49:05.754Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T11:49:06.796Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T11:49:24.782Z] [INFO] GET / - 127.0.0.1
+[2025-08-28T11:52:40.010Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T11:52:40.011Z] [INFO] Received TradingView webhook
+[2025-08-28T11:52:40.011Z] [INFO] Processing alarm data: | Data: {"symbol":"BTCUSDT","price":"45000","message":"Test alarm - BTC yükseliyor!","strategy":"Test Strategy","timeframe":"1h"}
+[2025-08-28T11:52:40.463Z] [INFO] Telegram message sent successfully
+[2025-08-28T11:52:40.463Z] [INFO] Telegram delivery successful
+[2025-08-28T11:52:40.611Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T11:52:40.612Z] [WARN] Attempt 1 failed, retrying in 1000ms...
+[2025-08-28T11:52:41.705Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T11:52:41.706Z] [WARN] Attempt 2 failed, retrying in 2000ms...
+[2025-08-28T11:52:43.790Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T11:52:43.791Z] [ERROR] WhatsApp delivery failed after retries: | Data: Twilio Error: 400 - Twilio could not find a Channel with the specified From address
+[2025-08-28T11:52:43.792Z] [INFO] Stored alarm with ID: mevch0r42l49j7jg3da
+[2025-08-28T11:52:43.793Z] [INFO] Webhook processing completed in 3781ms with status: partial
+[2025-08-28T11:54:43.433Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T11:54:43.433Z] [INFO] Received TradingView webhook
+[2025-08-28T11:54:43.433Z] [INFO] Processing alarm data: | Data: {"symbol":"BTCUSDT","price":"46000","message":"Test mesajı - Telegram kanalına geliyor mu?","strategy":"Test","timeframe":"1h"}
+[2025-08-28T11:54:43.829Z] [INFO] Telegram message sent successfully
+[2025-08-28T11:54:43.830Z] [INFO] Telegram delivery successful
+[2025-08-28T11:54:44.025Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T11:54:44.025Z] [WARN] Attempt 1 failed, retrying in 1000ms...
+[2025-08-28T11:54:45.117Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T11:54:45.117Z] [WARN] Attempt 2 failed, retrying in 2000ms...
+[2025-08-28T11:54:47.210Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T11:54:47.210Z] [ERROR] WhatsApp delivery failed after retries: | Data: Twilio Error: 400 - Twilio could not find a Channel with the specified From address
+[2025-08-28T11:54:47.210Z] [INFO] Stored alarm with ID: mevcjnzeludirbgk6s
+[2025-08-28T11:54:47.211Z] [INFO] Webhook processing completed in 3778ms with status: partial
+[2025-08-28T11:54:57.227Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T11:54:57.227Z] [INFO] Received TradingView webhook
+[2025-08-28T11:54:57.227Z] [INFO] Processing alarm data: | Data: {"symbol":"ETHUSDT","price":"2500","message":"ETH test alarmı","strategy":"Momentum","timeframe":"15m"}
+[2025-08-28T11:54:57.626Z] [INFO] Telegram message sent successfully
+[2025-08-28T11:54:57.627Z] [INFO] Telegram delivery successful
+[2025-08-28T11:54:57.791Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T11:54:57.791Z] [WARN] Attempt 1 failed, retrying in 1000ms...
+[2025-08-28T11:54:58.891Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T11:54:58.891Z] [WARN] Attempt 2 failed, retrying in 2000ms...
+[2025-08-28T11:55:00.986Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T11:55:00.986Z] [ERROR] WhatsApp delivery failed after retries: | Data: Twilio Error: 400 - Twilio could not find a Channel with the specified From address
+[2025-08-28T11:55:00.988Z] [INFO] Stored alarm with ID: mevcjym233uf0ejp2k
+[2025-08-28T11:55:00.988Z] [INFO] Webhook processing completed in 3761ms with status: partial
+[2025-08-28T12:17:23.677Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T12:17:23.678Z] [INFO] Process terminated
+[2025-08-28T12:17:24.926Z] [INFO] Loaded 3 alarms from storage
+[2025-08-28T12:17:24.938Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T12:17:24.938Z] [INFO] Configuration loaded successfully
+[2025-08-28T12:17:24.939Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T12:17:25.967Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T12:21:00.931Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T12:21:00.932Z] [INFO] Process terminated
+[2025-08-28T12:21:02.105Z] [INFO] Loaded 3 alarms from storage
+[2025-08-28T12:21:02.115Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T12:21:02.116Z] [INFO] Configuration loaded successfully
+[2025-08-28T12:21:02.116Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T12:21:02.496Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T12:21:02.823Z] [INFO] GET / - 127.0.0.1
+[2025-08-28T13:07:59.914Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:09:49.450Z] [INFO] GET /health - 172.31.87.2
+[2025-08-28T13:09:54.570Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:10:16.532Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T13:10:16.533Z] [INFO] Received TradingView webhook
+[2025-08-28T13:10:16.533Z] [INFO] Processing alarm data: | Data: {"symbol":"BTCUSDT","price":"50000","message":"WhatsApp test - BTC alarm!","timeframe":"1h"}
+[2025-08-28T13:10:16.549Z] [INFO] Sending to Telegram chat: -1001519702793
+[2025-08-28T13:10:16.969Z] [INFO] Telegram message sent successfully
+[2025-08-28T13:10:16.970Z] [INFO] Telegram delivery successful
+[2025-08-28T13:10:16.971Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T13:10:17.121Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:10:17.121Z] [WARN] Attempt 1 failed, retrying in 1000ms...
+[2025-08-28T13:10:18.125Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T13:10:18.221Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:10:18.221Z] [WARN] Attempt 2 failed, retrying in 2000ms...
+[2025-08-28T13:10:20.224Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T13:10:20.309Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:10:20.309Z] [ERROR] WhatsApp delivery failed after retries: | Data: Twilio Error: 400 - Twilio could not find a Channel with the specified From address
+[2025-08-28T13:10:20.311Z] [INFO] Stored alarm with ID: mevf8tquqncx569rf2
+[2025-08-28T13:10:20.312Z] [INFO] Webhook processing completed in 3778ms with status: partial
+[2025-08-28T13:22:57.058Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T13:22:57.059Z] [INFO] Process terminated
+[2025-08-28T13:22:58.519Z] [INFO] Loaded 4 alarms from storage
+[2025-08-28T13:22:58.535Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T13:22:58.535Z] [INFO] Configuration loaded successfully
+[2025-08-28T13:22:58.535Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T13:22:59.543Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:23:06.518Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:23:07.408Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T13:23:07.409Z] [INFO] Received TradingView webhook
+[2025-08-28T13:23:07.409Z] [INFO] Processing alarm data: | Data: {"symbol":"ETHUSDT","price":"2800","message":"WhatsApp test - ETH yükseldi!","timeframe":"1h","exchange":"BINANCE"}
+[2025-08-28T13:23:07.431Z] [INFO] Sending to Telegram chat: -1001519702793
+[2025-08-28T13:23:07.858Z] [INFO] Telegram message sent successfully
+[2025-08-28T13:23:07.858Z] [INFO] Telegram delivery successful
+[2025-08-28T13:23:07.859Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T13:23:08.025Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:23:08.025Z] [WARN] Attempt 1 failed, retrying in 1000ms...
+[2025-08-28T13:23:09.027Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T13:23:09.113Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:23:09.113Z] [WARN] Attempt 2 failed, retrying in 2000ms...
+[2025-08-28T13:23:11.116Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T13:23:11.206Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:23:11.206Z] [ERROR] WhatsApp delivery failed after retries: | Data: Twilio Error: 400 - Twilio could not find a Channel with the specified From address
+[2025-08-28T13:23:11.207Z] [INFO] Stored alarm with ID: mevfpckmp93s1xrltcc
+[2025-08-28T13:23:11.213Z] [INFO] Webhook processing completed in 3798ms with status: partial
+[2025-08-28T13:23:20.354Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T13:23:20.355Z] [INFO] Process terminated
+[2025-08-28T13:23:21.590Z] [INFO] Loaded 5 alarms from storage
+[2025-08-28T13:23:21.608Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T13:23:21.608Z] [INFO] Configuration loaded successfully
+[2025-08-28T13:23:21.608Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T13:23:22.057Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:23:27.805Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:23:39.242Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T13:23:39.243Z] [INFO] Received TradingView webhook
+[2025-08-28T13:23:39.243Z] [INFO] Processing alarm data: | Data: {"symbol":"BTCUSDT","price":"51000","message":"Son test - sadece Telegram","timeframe":"1h","exchange":"BINANCE"}
+[2025-08-28T13:23:39.267Z] [INFO] Sending to Telegram chat: -1001519702793
+[2025-08-28T13:23:39.695Z] [INFO] Telegram message sent successfully
+[2025-08-28T13:23:39.695Z] [INFO] Telegram delivery successful
+[2025-08-28T13:23:39.696Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T13:23:39.837Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:23:39.837Z] [WARN] Attempt 1 failed, retrying in 1000ms...
+[2025-08-28T13:23:40.839Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T13:23:40.934Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:23:40.934Z] [WARN] Attempt 2 failed, retrying in 2000ms...
+[2025-08-28T13:23:42.937Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T13:23:43.027Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:23:43.028Z] [ERROR] WhatsApp delivery failed after retries: | Data: Twilio Error: 400 - Twilio could not find a Channel with the specified From address
+[2025-08-28T13:23:43.028Z] [INFO] Stored alarm with ID: mevfq14k38fbnpc6g2s
+[2025-08-28T13:23:43.029Z] [INFO] Webhook processing completed in 3786ms with status: partial
+[2025-08-28T13:23:43.726Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:23:47.500Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T13:23:47.501Z] [INFO] Process terminated
+[2025-08-28T13:23:48.571Z] [INFO] Loaded 6 alarms from storage
+[2025-08-28T13:23:48.585Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T13:23:48.585Z] [INFO] Configuration loaded successfully
+[2025-08-28T13:23:48.586Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T13:23:48.982Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:23:54.350Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T13:23:54.351Z] [INFO] Received TradingView webhook
+[2025-08-28T13:23:54.352Z] [INFO] Processing alarm data: | Data: {"symbol":"ADAUSDT","price":"0.35","message":"Test - WhatsApp devre dışı","timeframe":"4h"}
+[2025-08-28T13:23:54.368Z] [INFO] Sending to Telegram chat: -1001519702793
+[2025-08-28T13:23:54.799Z] [INFO] Telegram message sent successfully
+[2025-08-28T13:23:54.800Z] [INFO] Telegram delivery successful
+[2025-08-28T13:23:54.800Z] [WARN] WhatsApp service not configured, skipping
+[2025-08-28T13:23:54.801Z] [INFO] Stored alarm with ID: mevfqa7krosahe5nbsr
+[2025-08-28T13:23:54.802Z] [INFO] Webhook processing completed in 450ms with status: partial
+[2025-08-28T13:24:11.095Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T13:24:11.096Z] [INFO] Process terminated
+[2025-08-28T13:24:12.353Z] [INFO] Loaded 7 alarms from storage
+[2025-08-28T13:24:12.362Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T13:24:12.362Z] [INFO] Configuration loaded successfully
+[2025-08-28T13:24:12.362Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T13:24:12.766Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:24:13.052Z] [INFO] GET / - 127.0.0.1
+[2025-08-28T13:24:38.012Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:24:42.626Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:31:11.186Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T13:31:11.189Z] [INFO] Process terminated
+[2025-08-28T13:31:12.891Z] [INFO] Loaded 7 alarms from storage
+[2025-08-28T13:31:12.901Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T13:31:12.902Z] [INFO] Configuration loaded successfully
+[2025-08-28T13:31:12.903Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T13:31:13.926Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:31:21.782Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T13:31:21.782Z] [INFO] Received TradingView webhook
+[2025-08-28T13:31:21.782Z] [INFO] Processing alarm data: | Data: {"symbol":"BTCUSDT","price":"52000","message":"WhatsApp test - güncellenmiş numara ile","timeframe":"1h","exchange":"BINANCE"}
+[2025-08-28T13:31:21.800Z] [INFO] Sending to Telegram chat: -1001519702793
+[2025-08-28T13:31:22.196Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:31:22.228Z] [INFO] Telegram message sent successfully
+[2025-08-28T13:31:22.228Z] [INFO] Telegram delivery successful
+[2025-08-28T13:31:22.230Z] [INFO] Sending WhatsApp from whatsapp: +1 9153361536 to whatsapp:+905304354300
+[2025-08-28T13:31:22.397Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:31:22.398Z] [WARN] Attempt 1 failed, retrying in 1000ms...
+[2025-08-28T13:31:23.398Z] [INFO] Sending WhatsApp from whatsapp: +1 9153361536 to whatsapp:+905304354300
+[2025-08-28T13:31:23.471Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:31:23.471Z] [WARN] Attempt 2 failed, retrying in 2000ms...
+[2025-08-28T13:31:25.474Z] [INFO] Sending WhatsApp from whatsapp: +1 9153361536 to whatsapp:+905304354300
+[2025-08-28T13:31:25.550Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:31:25.551Z] [ERROR] WhatsApp delivery failed after retries: | Data: Twilio Error: 400 - The 'From' number whatsapp: +1 9153361536 is not a valid phone number, shortcode, or alphanumeric sender ID.
+[2025-08-28T13:31:25.551Z] [INFO] Stored alarm with ID: mevfzy0fjlva1606r9
+[2025-08-28T13:31:25.552Z] [INFO] Webhook processing completed in 3769ms with status: partial
+[2025-08-28T13:32:07.586Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T13:32:07.586Z] [INFO] Received TradingView webhook
+[2025-08-28T13:32:07.586Z] [INFO] Processing alarm data: | Data: {"symbol":"ETHUSDT","price":"2800","message":"WhatsApp test - temizlenmiş numara formatı","timeframe":"15m","exchange":"BINANCE"}
+[2025-08-28T13:32:07.587Z] [INFO] Sending to Telegram chat: -1001519702793
+[2025-08-28T13:32:08.030Z] [INFO] Telegram message sent successfully
+[2025-08-28T13:32:08.031Z] [INFO] Telegram delivery successful
+[2025-08-28T13:32:08.031Z] [INFO] Sending WhatsApp from whatsapp: +1 9153361536 to whatsapp:+905304354300
+[2025-08-28T13:32:08.137Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:32:08.138Z] [WARN] Attempt 1 failed, retrying in 1000ms...
+[2025-08-28T13:32:09.139Z] [INFO] Sending WhatsApp from whatsapp: +1 9153361536 to whatsapp:+905304354300
+[2025-08-28T13:32:09.216Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:32:09.216Z] [WARN] Attempt 2 failed, retrying in 2000ms...
+[2025-08-28T13:32:11.217Z] [INFO] Sending WhatsApp from whatsapp: +1 9153361536 to whatsapp:+905304354300
+[2025-08-28T13:32:11.299Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T13:32:11.300Z] [ERROR] WhatsApp delivery failed after retries: | Data: Twilio Error: 400 - The 'From' number whatsapp: +1 9153361536 is not a valid phone number, shortcode, or alphanumeric sender ID.
+[2025-08-28T13:32:11.300Z] [INFO] Stored alarm with ID: mevg0xb8oibdt6nmm3o
+[2025-08-28T13:32:11.303Z] [INFO] Webhook processing completed in 3716ms with status: partial
+[2025-08-28T13:32:43.985Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T13:32:50.678Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T14:46:50.365Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T14:46:50.366Z] [INFO] Process terminated
+[2025-08-28T14:46:51.715Z] [INFO] Loaded 9 alarms from storage
+[2025-08-28T14:46:51.724Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T14:46:51.724Z] [INFO] Configuration loaded successfully
+[2025-08-28T14:46:51.724Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T14:46:52.899Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T14:46:59.308Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T14:46:59.309Z] [INFO] Received TradingView webhook
+[2025-08-28T14:46:59.309Z] [INFO] Processing alarm data: | Data: {"symbol":"ADAUSDT","price":"0.45","message":"WhatsApp test - standart sandbox numarası","timeframe":"30m","exchange":"BINANCE"}
+[2025-08-28T14:46:59.324Z] [INFO] Sending to Telegram chat: -1001519702793
+[2025-08-28T14:46:59.741Z] [INFO] Telegram message sent successfully
+[2025-08-28T14:46:59.742Z] [INFO] Telegram delivery successful
+[2025-08-28T14:46:59.743Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T14:46:59.903Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T14:46:59.903Z] [WARN] Attempt 1 failed, retrying in 1000ms...
+[2025-08-28T14:47:00.905Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T14:47:01.010Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T14:47:01.011Z] [WARN] Attempt 2 failed, retrying in 2000ms...
+[2025-08-28T14:47:03.014Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T14:47:03.107Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T14:47:03.107Z] [ERROR] WhatsApp delivery failed after retries: | Data: Twilio Error: 400 - Twilio could not find a Channel with the specified From address
+[2025-08-28T14:47:03.108Z] [INFO] Stored alarm with ID: mevip77om74ex4we1um
+[2025-08-28T14:47:03.115Z] [INFO] Webhook processing completed in 3799ms with status: partial
+[2025-08-28T14:47:09.298Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T14:47:09.299Z] [INFO] Process terminated
+[2025-08-28T14:47:10.657Z] [INFO] Loaded 10 alarms from storage
+[2025-08-28T14:47:10.671Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T14:47:10.673Z] [INFO] Configuration loaded successfully
+[2025-08-28T14:47:10.673Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T14:47:11.086Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T14:47:17.282Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T14:47:17.282Z] [INFO] Received TradingView webhook
+[2025-08-28T14:47:17.284Z] [INFO] Processing alarm data: | Data: {"symbol":"SOLUSDT","price":"155","message":"WhatsApp test - güncellenmiş sandbox","timeframe":"1h","exchange":"BINANCE"}
+[2025-08-28T14:47:17.313Z] [INFO] Sending to Telegram chat: -1001519702793
+[2025-08-28T14:47:17.742Z] [INFO] Telegram message sent successfully
+[2025-08-28T14:47:17.742Z] [INFO] Telegram delivery successful
+[2025-08-28T14:47:17.743Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T14:47:17.875Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T14:47:17.876Z] [WARN] Attempt 1 failed, retrying in 1000ms...
+[2025-08-28T14:47:18.877Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T14:47:18.971Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T14:47:18.972Z] [WARN] Attempt 2 failed, retrying in 2000ms...
+[2025-08-28T14:47:20.975Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T14:47:21.067Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T14:47:21.067Z] [ERROR] WhatsApp delivery failed after retries: | Data: Twilio Error: 400 - Twilio could not find a Channel with the specified From address
+[2025-08-28T14:47:21.068Z] [INFO] Stored alarm with ID: mevipl2kiivvh7djdt8
+[2025-08-28T14:47:21.069Z] [INFO] Webhook processing completed in 3786ms with status: partial
+[2025-08-28T14:47:35.935Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T14:47:41.842Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T14:47:41.843Z] [INFO] Received TradingView webhook
+[2025-08-28T14:47:41.843Z] [INFO] Processing alarm data: | Data: {"symbol":"BTCUSDT","price":"52500","message":"Test - sadece Telegram aktif","timeframe":"4h","exchange":"BINANCE"}
+[2025-08-28T14:47:41.843Z] [INFO] Sending to Telegram chat: -1001519702793
+[2025-08-28T14:47:42.233Z] [INFO] Telegram message sent successfully
+[2025-08-28T14:47:42.233Z] [INFO] Telegram delivery successful
+[2025-08-28T14:47:42.234Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T14:47:42.380Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T14:47:42.381Z] [WARN] Attempt 1 failed, retrying in 1000ms...
+[2025-08-28T14:47:43.382Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T14:47:43.469Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T14:47:43.470Z] [WARN] Attempt 2 failed, retrying in 2000ms...
+[2025-08-28T14:47:45.473Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T14:47:45.563Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T14:47:45.563Z] [ERROR] WhatsApp delivery failed after retries: | Data: Twilio Error: 400 - Twilio could not find a Channel with the specified From address
+[2025-08-28T14:47:45.564Z] [INFO] Stored alarm with ID: meviq3z0hw0e8mfrft9
+[2025-08-28T14:47:45.571Z] [INFO] Webhook processing completed in 3721ms with status: partial
+[2025-08-28T14:48:05.326Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T14:48:05.326Z] [INFO] Received TradingView webhook
+[2025-08-28T14:48:05.327Z] [INFO] Processing alarm data: | Data: {"symbol":"ETHUSDT","price":"2850","message":"Test - WhatsApp disabled","timeframe":"1h","exchange":"BINANCE"}
+[2025-08-28T14:48:05.327Z] [INFO] Sending to Telegram chat: -1001519702793
+[2025-08-28T14:48:05.709Z] [INFO] Telegram message sent successfully
+[2025-08-28T14:48:05.709Z] [INFO] Telegram delivery successful
+[2025-08-28T14:48:05.710Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T14:48:05.842Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T14:48:05.842Z] [WARN] Attempt 1 failed, retrying in 1000ms...
+[2025-08-28T14:48:06.844Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T14:48:06.949Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T14:48:06.949Z] [WARN] Attempt 2 failed, retrying in 2000ms...
+[2025-08-28T14:48:08.952Z] [INFO] Sending WhatsApp from whatsapp:+19153361536 to whatsapp:+905304354300
+[2025-08-28T14:48:09.046Z] [ERROR] Failed to send WhatsApp message: | Data: Request failed with status code 400
+[2025-08-28T14:48:09.046Z] [ERROR] WhatsApp delivery failed after retries: | Data: Twilio Error: 400 - Twilio could not find a Channel with the specified From address
+[2025-08-28T14:48:09.047Z] [INFO] Stored alarm with ID: meviqm3awlov1dlqbqb
+[2025-08-28T14:48:09.047Z] [INFO] Webhook processing completed in 3721ms with status: partial
+[2025-08-28T14:48:21.056Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T14:48:21.056Z] [INFO] Process terminated
+[2025-08-28T14:48:22.213Z] [INFO] Loaded 13 alarms from storage
+[2025-08-28T14:48:22.223Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T14:48:22.223Z] [INFO] Configuration loaded successfully
+[2025-08-28T14:48:22.223Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T14:48:22.634Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T14:48:29.281Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T14:48:29.281Z] [INFO] Received TradingView webhook
+[2025-08-28T14:48:29.282Z] [INFO] Processing alarm data: | Data: {"symbol":"XRPUSDT","price":"0.65","message":"Final test - sadece Telegram","timeframe":"2h","exchange":"BINANCE"}
+[2025-08-28T14:48:29.303Z] [INFO] Sending to Telegram chat: -1001519702793
+[2025-08-28T14:48:29.730Z] [INFO] Telegram message sent successfully
+[2025-08-28T14:48:29.731Z] [INFO] Telegram delivery successful
+[2025-08-28T14:48:29.731Z] [WARN] WhatsApp service not configured, skipping
+[2025-08-28T14:48:29.733Z] [INFO] Stored alarm with ID: mevir21wcmjgze4qiwr
+[2025-08-28T14:48:29.734Z] [INFO] Webhook processing completed in 452ms with status: partial
+[2025-08-28T14:55:25.737Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T14:55:25.738Z] [INFO] Process terminated
+[2025-08-28T14:55:26.955Z] [INFO] Loaded 14 alarms from storage
+[2025-08-28T14:55:26.968Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T14:55:26.969Z] [INFO] Configuration loaded successfully
+[2025-08-28T14:55:26.970Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T14:55:28.063Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T14:55:38.879Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T14:55:38.880Z] [INFO] Received TradingView webhook
+[2025-08-28T14:55:38.880Z] [INFO] Processing alarm data: | Data: {"symbol":"BTCUSDT","price":"52000","message":"WhatsApp kurulum testi","timeframe":"1h","exchange":"BINANCE"}
+[2025-08-28T14:55:38.894Z] [INFO] Sending to Telegram chat: -1001519702793
+[2025-08-28T14:55:39.151Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T14:55:39.317Z] [INFO] Telegram message sent successfully
+[2025-08-28T14:55:39.318Z] [INFO] Telegram delivery successful
+[2025-08-28T14:55:39.319Z] [INFO] Sending WhatsApp from whatsapp:+14155238886 to whatsapp:+905304354300
+[2025-08-28T14:55:39.510Z] [INFO] WhatsApp message sent successfully
+[2025-08-28T14:55:39.511Z] [INFO] WhatsApp delivery successful
+[2025-08-28T14:55:39.513Z] [INFO] Stored alarm with ID: mevj09o70t8cpjgdg43m
+[2025-08-28T14:55:39.514Z] [INFO] Webhook processing completed in 634ms with status: success
+[2025-08-28T14:56:59.712Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T14:56:59.713Z] [INFO] Process terminated
+[2025-08-28T14:57:00.949Z] [INFO] Loaded 15 alarms from storage
+[2025-08-28T14:57:00.959Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T14:57:00.959Z] [INFO] Configuration loaded successfully
+[2025-08-28T14:57:00.959Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T14:57:01.366Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T14:57:01.536Z] [INFO] GET / - 127.0.0.1
+[2025-08-28T14:57:09.272Z] [INFO] GET / - 172.31.87.2
+[2025-08-28T14:58:19.658Z] [INFO] HEAD /webhook/tradingview - 127.0.0.1
+[2025-08-28T14:58:32.912Z] [INFO] POST /webhook/tradingview - 127.0.0.1
+[2025-08-28T14:58:32.914Z] [INFO] Received TradingView webhook
+[2025-08-28T14:58:32.914Z] [INFO] Processing alarm data: | Data: {"test":"debug"}
+[2025-08-28T14:58:32.929Z] [INFO] Sending to Telegram chat: -1001519702793
+[2025-08-28T14:58:33.363Z] [INFO] Telegram message sent successfully
+[2025-08-28T14:58:33.363Z] [INFO] Telegram delivery successful
+[2025-08-28T14:58:33.364Z] [INFO] Sending WhatsApp from whatsapp:+14155238886 to whatsapp:+905304354300
+[2025-08-28T14:58:33.525Z] [INFO] WhatsApp message sent successfully
+[2025-08-28T14:58:33.525Z] [INFO] WhatsApp delivery successful
+[2025-08-28T14:58:33.526Z] [INFO] Stored alarm with ID: mevj3zxxu9629lx9oj8
+[2025-08-28T14:58:33.527Z] [INFO] Webhook processing completed in 612ms with status: success
+[2025-08-28T15:00:07.696Z] [INFO] SIGTERM received, shutting down gracefully
+[2025-08-28T15:00:07.697Z] [INFO] Process terminated
+[2025-08-28T15:00:09.257Z] [INFO] Loaded 16 alarms from storage
+[2025-08-28T15:00:09.273Z] [INFO] TradingView Alarm Relay Server started on 0.0.0.0:5000
+[2025-08-28T15:00:09.274Z] [INFO] Configuration loaded successfully
+[2025-08-28T15:00:09.279Z] [INFO] Ready to receive TradingView webhooks
+[2025-08-28T15:00:09.701Z] [INFO] GET / - 46.2.134.5

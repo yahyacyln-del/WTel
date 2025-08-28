@@ -1,0 +1,1350 @@
+[
+  {
+    "id": "mevj3zxxu9629lx9oj8",
+    "timestamp": "2025-08-28T14:58:33.525Z",
+    "data": {
+      "test": "debug"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3580,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3580,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756393113,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 17:58:32\nℹ️ Test: debug",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 5,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageSid": "SMc584ffc87e36214c96bbfc9388859865",
+          "response": {
+            "account_sid": "ACabde460826a77e7b6dc28db02cf5a301",
+            "api_version": "2010-04-01",
+            "body": "🚨 *TradingView Alarm*\n\n📅 *Zaman:* 28.08.2025 17:58:33\nℹ️ *Test:* debug\n",
+            "date_created": "Thu, 28 Aug 2025 14:58:33 +0000",
+            "date_sent": null,
+            "date_updated": "Thu, 28 Aug 2025 14:58:33 +0000",
+            "direction": "outbound-api",
+            "error_code": null,
+            "error_message": null,
+            "from": "whatsapp:+14155238886",
+            "messaging_service_sid": null,
+            "num_media": "0",
+            "num_segments": "1",
+            "price": null,
+            "price_unit": null,
+            "sid": "SMc584ffc87e36214c96bbfc9388859865",
+            "status": "queued",
+            "subresource_uris": {
+              "media": "/2010-04-01/Accounts/ACabde460826a77e7b6dc28db02cf5a301/Messages/SMc584ffc87e36214c96bbfc9388859865/Media.json"
+            },
+            "to": "whatsapp:+905304354300",
+            "uri": "/2010-04-01/Accounts/ACabde460826a77e7b6dc28db02cf5a301/Messages/SMc584ffc87e36214c96bbfc9388859865.json"
+          }
+        }
+      }
+    },
+    "status": "success"
+  },
+  {
+    "id": "mevj09o70t8cpjgdg43m",
+    "timestamp": "2025-08-28T14:55:39.511Z",
+    "data": {
+      "symbol": "BTCUSDT",
+      "price": "52000",
+      "message": "WhatsApp kurulum testi",
+      "timeframe": "1h",
+      "exchange": "BINANCE"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3579,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3579,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756392939,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 17:55:38\n📊 Sembol: BTCUSDT\n💰 Fiyat: 52000\n📝 Mesaj: WhatsApp kurulum testi\n⏰ Zaman Dilimi: 1h\nℹ️ Exchange: BINANCE",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 90,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 122,
+                  "length": 13,
+                  "type": "bold"
+                },
+                {
+                  "offset": 142,
+                  "length": 9,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageSid": "SMb9878fdf88c6d3b1be7d11aa8e36e172",
+          "response": {
+            "account_sid": "ACabde460826a77e7b6dc28db02cf5a301",
+            "api_version": "2010-04-01",
+            "body": "🚨 *TradingView Alarm*\n\n📅 *Zaman:* 28.08.2025 17:55:39\n📊 *Sembol:* BTCUSDT\n💰 *Fiyat:* 52000\n📝 *Mesaj:* WhatsApp kurulum testi\n⏰ *Zaman Dilimi:* 1h\nℹ️ *Exchange:* BINANCE\n",
+            "date_created": "Thu, 28 Aug 2025 14:55:39 +0000",
+            "date_sent": null,
+            "date_updated": "Thu, 28 Aug 2025 14:55:39 +0000",
+            "direction": "outbound-api",
+            "error_code": null,
+            "error_message": null,
+            "from": "whatsapp:+14155238886",
+            "messaging_service_sid": null,
+            "num_media": "0",
+            "num_segments": "1",
+            "price": null,
+            "price_unit": null,
+            "sid": "SMb9878fdf88c6d3b1be7d11aa8e36e172",
+            "status": "queued",
+            "subresource_uris": {
+              "media": "/2010-04-01/Accounts/ACabde460826a77e7b6dc28db02cf5a301/Messages/SMb9878fdf88c6d3b1be7d11aa8e36e172/Media.json"
+            },
+            "to": "whatsapp:+905304354300",
+            "uri": "/2010-04-01/Accounts/ACabde460826a77e7b6dc28db02cf5a301/Messages/SMb9878fdf88c6d3b1be7d11aa8e36e172.json"
+          }
+        }
+      }
+    },
+    "status": "success"
+  },
+  {
+    "id": "mevir21wcmjgze4qiwr",
+    "timestamp": "2025-08-28T14:48:29.732Z",
+    "data": {
+      "symbol": "XRPUSDT",
+      "price": "0.65",
+      "message": "Final test - sadece Telegram",
+      "timeframe": "2h",
+      "exchange": "BINANCE"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3578,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3578,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756392509,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 17:48:29\n📊 Sembol: XRPUSDT\n💰 Fiyat: 0.65\n📝 Mesaj: Final test - sadece Telegram\n⏰ Zaman Dilimi: 2h\nℹ️ Exchange: BINANCE",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 89,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 127,
+                  "length": 13,
+                  "type": "bold"
+                },
+                {
+                  "offset": 147,
+                  "length": 9,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": false,
+        "success": false,
+        "error": null
+      }
+    },
+    "status": "partial"
+  },
+  {
+    "id": "meviqm3awlov1dlqbqb",
+    "timestamp": "2025-08-28T14:48:09.046Z",
+    "data": {
+      "symbol": "ETHUSDT",
+      "price": "2850",
+      "message": "Test - WhatsApp disabled",
+      "timeframe": "1h",
+      "exchange": "BINANCE"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3577,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3577,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756392485,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 17:48:05\n📊 Sembol: ETHUSDT\n💰 Fiyat: 2850\n📝 Mesaj: Test - WhatsApp disabled\n⏰ Zaman Dilimi: 1h\nℹ️ Exchange: BINANCE",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 89,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 123,
+                  "length": 13,
+                  "type": "bold"
+                },
+                {
+                  "offset": 143,
+                  "length": 9,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": false,
+        "error": "Twilio Error: 400 - Twilio could not find a Channel with the specified From address"
+      }
+    },
+    "status": "partial"
+  },
+  {
+    "id": "meviq3z0hw0e8mfrft9",
+    "timestamp": "2025-08-28T14:47:45.564Z",
+    "data": {
+      "symbol": "BTCUSDT",
+      "price": "52500",
+      "message": "Test - sadece Telegram aktif",
+      "timeframe": "4h",
+      "exchange": "BINANCE"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3576,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3576,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756392462,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 17:47:41\n📊 Sembol: BTCUSDT\n💰 Fiyat: 52500\n📝 Mesaj: Test - sadece Telegram aktif\n⏰ Zaman Dilimi: 4h\nℹ️ Exchange: BINANCE",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 90,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 128,
+                  "length": 13,
+                  "type": "bold"
+                },
+                {
+                  "offset": 148,
+                  "length": 9,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": false,
+        "error": "Twilio Error: 400 - Twilio could not find a Channel with the specified From address"
+      }
+    },
+    "status": "partial"
+  },
+  {
+    "id": "mevipl2kiivvh7djdt8",
+    "timestamp": "2025-08-28T14:47:21.068Z",
+    "data": {
+      "symbol": "SOLUSDT",
+      "price": "155",
+      "message": "WhatsApp test - güncellenmiş sandbox",
+      "timeframe": "1h",
+      "exchange": "BINANCE"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3575,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3575,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756392437,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 17:47:17\n📊 Sembol: SOLUSDT\n💰 Fiyat: 155\n📝 Mesaj: WhatsApp test - güncellenmiş sandbox\n⏰ Zaman Dilimi: 1h\nℹ️ Exchange: BINANCE",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 88,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 134,
+                  "length": 13,
+                  "type": "bold"
+                },
+                {
+                  "offset": 154,
+                  "length": 9,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": false,
+        "error": "Twilio Error: 400 - Twilio could not find a Channel with the specified From address"
+      }
+    },
+    "status": "partial"
+  },
+  {
+    "id": "mevip77om74ex4we1um",
+    "timestamp": "2025-08-28T14:47:03.108Z",
+    "data": {
+      "symbol": "ADAUSDT",
+      "price": "0.45",
+      "message": "WhatsApp test - standart sandbox numarası",
+      "timeframe": "30m",
+      "exchange": "BINANCE"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3574,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3574,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756392419,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 17:46:59\n📊 Sembol: ADAUSDT\n💰 Fiyat: 0.45\n📝 Mesaj: WhatsApp test - standart sandbox numarası\n⏰ Zaman Dilimi: 30m\nℹ️ Exchange: BINANCE",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 89,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 140,
+                  "length": 13,
+                  "type": "bold"
+                },
+                {
+                  "offset": 161,
+                  "length": 9,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": false,
+        "error": "Twilio Error: 400 - Twilio could not find a Channel with the specified From address"
+      }
+    },
+    "status": "partial"
+  },
+  {
+    "id": "mevg0xb8oibdt6nmm3o",
+    "timestamp": "2025-08-28T13:32:11.300Z",
+    "data": {
+      "symbol": "ETHUSDT",
+      "price": "2800",
+      "message": "WhatsApp test - temizlenmiş numara formatı",
+      "timeframe": "15m",
+      "exchange": "BINANCE"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3573,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3573,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756387927,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 16:32:07\n📊 Sembol: ETHUSDT\n💰 Fiyat: 2800\n📝 Mesaj: WhatsApp test - temizlenmiş numara formatı\n⏰ Zaman Dilimi: 15m\nℹ️ Exchange: BINANCE",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 89,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 141,
+                  "length": 13,
+                  "type": "bold"
+                },
+                {
+                  "offset": 162,
+                  "length": 9,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": false,
+        "error": "Twilio Error: 400 - The 'From' number whatsapp: +1 9153361536 is not a valid phone number, shortcode, or alphanumeric sender ID."
+      }
+    },
+    "status": "partial"
+  },
+  {
+    "id": "mevfzy0fjlva1606r9",
+    "timestamp": "2025-08-28T13:31:25.551Z",
+    "data": {
+      "symbol": "BTCUSDT",
+      "price": "52000",
+      "message": "WhatsApp test - güncellenmiş numara ile",
+      "timeframe": "1h",
+      "exchange": "BINANCE"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3572,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3572,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756387882,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 16:31:21\n📊 Sembol: BTCUSDT\n💰 Fiyat: 52000\n📝 Mesaj: WhatsApp test - güncellenmiş numara ile\n⏰ Zaman Dilimi: 1h\nℹ️ Exchange: BINANCE",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 90,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 139,
+                  "length": 13,
+                  "type": "bold"
+                },
+                {
+                  "offset": 159,
+                  "length": 9,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": false,
+        "error": "Twilio Error: 400 - The 'From' number whatsapp: +1 9153361536 is not a valid phone number, shortcode, or alphanumeric sender ID."
+      }
+    },
+    "status": "partial"
+  },
+  {
+    "id": "mevfqa7krosahe5nbsr",
+    "timestamp": "2025-08-28T13:23:54.800Z",
+    "data": {
+      "symbol": "ADAUSDT",
+      "price": "0.35",
+      "message": "Test - WhatsApp devre dışı",
+      "timeframe": "4h"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3571,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3571,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756387434,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 16:23:54\n📊 Sembol: ADAUSDT\n💰 Fiyat: 0.35\n📝 Mesaj: Test - WhatsApp devre dışı\n⏰ Zaman Dilimi: 4h",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 89,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 125,
+                  "length": 13,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": false,
+        "success": false,
+        "error": null
+      }
+    },
+    "status": "partial"
+  },
+  {
+    "id": "mevfq14k38fbnpc6g2s",
+    "timestamp": "2025-08-28T13:23:43.028Z",
+    "data": {
+      "symbol": "BTCUSDT",
+      "price": "51000",
+      "message": "Son test - sadece Telegram",
+      "timeframe": "1h",
+      "exchange": "BINANCE"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3570,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3570,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756387419,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 16:23:39\n📊 Sembol: BTCUSDT\n💰 Fiyat: 51000\n📝 Mesaj: Son test - sadece Telegram\n⏰ Zaman Dilimi: 1h\nℹ️ Exchange: BINANCE",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 90,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 126,
+                  "length": 13,
+                  "type": "bold"
+                },
+                {
+                  "offset": 146,
+                  "length": 9,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": false,
+        "error": "Twilio Error: 400 - Twilio could not find a Channel with the specified From address"
+      }
+    },
+    "status": "partial"
+  },
+  {
+    "id": "mevfpckmp93s1xrltcc",
+    "timestamp": "2025-08-28T13:23:11.206Z",
+    "data": {
+      "symbol": "ETHUSDT",
+      "price": "2800",
+      "message": "WhatsApp test - ETH yükseldi!",
+      "timeframe": "1h",
+      "exchange": "BINANCE"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3569,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3569,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756387387,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 16:23:07\n📊 Sembol: ETHUSDT\n💰 Fiyat: 2800\n📝 Mesaj: WhatsApp test - ETH yükseldi!\n⏰ Zaman Dilimi: 1h\nℹ️ Exchange: BINANCE",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 89,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 128,
+                  "length": 13,
+                  "type": "bold"
+                },
+                {
+                  "offset": 148,
+                  "length": 9,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": false,
+        "error": "Twilio Error: 400 - Twilio could not find a Channel with the specified From address"
+      }
+    },
+    "status": "partial"
+  },
+  {
+    "id": "mevf8tquqncx569rf2",
+    "timestamp": "2025-08-28T13:10:20.310Z",
+    "data": {
+      "symbol": "BTCUSDT",
+      "price": "50000",
+      "message": "WhatsApp test - BTC alarm!",
+      "timeframe": "1h"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3568,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3568,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756386616,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 16:10:16\n📊 Sembol: BTCUSDT\n💰 Fiyat: 50000\n📝 Mesaj: WhatsApp test - BTC alarm!\n⏰ Zaman Dilimi: 1h",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 90,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 126,
+                  "length": 13,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": false,
+        "error": "Twilio Error: 400 - Twilio could not find a Channel with the specified From address"
+      }
+    },
+    "status": "partial"
+  },
+  {
+    "id": "mevcjym233uf0ejp2k",
+    "timestamp": "2025-08-28T11:55:00.986Z",
+    "data": {
+      "symbol": "ETHUSDT",
+      "price": "2500",
+      "message": "ETH test alarmı",
+      "strategy": "Momentum",
+      "timeframe": "15m"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3567,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3567,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756382097,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 14:54:57\n📊 Sembol: ETHUSDT\n💰 Fiyat: 2500\n📝 Mesaj: ETH test alarmı\n🎯 Strateji: Momentum\n⏰ Zaman Dilimi: 15m",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 89,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 115,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 136,
+                  "length": 13,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": false,
+        "error": "Twilio Error: 400 - Twilio could not find a Channel with the specified From address"
+      }
+    },
+    "status": "partial"
+  },
+  {
+    "id": "mevcjnzeludirbgk6s",
+    "timestamp": "2025-08-28T11:54:47.210Z",
+    "data": {
+      "symbol": "BTCUSDT",
+      "price": "46000",
+      "message": "Test mesajı - Telegram kanalına geliyor mu?",
+      "strategy": "Test",
+      "timeframe": "1h"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3566,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3566,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756382083,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 14:54:43\n📊 Sembol: BTCUSDT\n💰 Fiyat: 46000\n📝 Mesaj: Test mesajı - Telegram kanalına geliyor mu?\n🎯 Strateji: Test\n⏰ Zaman Dilimi: 1h",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 90,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 144,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 161,
+                  "length": 13,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": false,
+        "error": "Twilio Error: 400 - Twilio could not find a Channel with the specified From address"
+      }
+    },
+    "status": "partial"
+  },
+  {
+    "id": "mevch0r42l49j7jg3da",
+    "timestamp": "2025-08-28T11:52:43.792Z",
+    "data": {
+      "symbol": "BTCUSDT",
+      "price": "45000",
+      "message": "Test alarm - BTC yükseliyor!",
+      "strategy": "Test Strategy",
+      "timeframe": "1h"
+    },
+    "delivery": {
+      "telegram": {
+        "attempted": true,
+        "success": true,
+        "error": null,
+        "response": {
+          "success": true,
+          "messageId": 3565,
+          "response": {
+            "ok": true,
+            "result": {
+              "message_id": 3565,
+              "sender_chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "chat": {
+                "id": -1001519702793,
+                "title": "Paratoner_Kripto",
+                "type": "channel"
+              },
+              "date": 1756381960,
+              "text": "🚨 TradingView Alarm\n\n📅 Zaman: 28.08.2025 14:52:40\n📊 Sembol: BTCUSDT\n💰 Fiyat: 45000\n📝 Mesaj: Test alarm - BTC yükseliyor!\n🎯 Strateji: Test Strategy\n⏰ Zaman Dilimi: 1h",
+              "entities": [
+                {
+                  "offset": 3,
+                  "length": 17,
+                  "type": "bold"
+                },
+                {
+                  "offset": 25,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 55,
+                  "length": 7,
+                  "type": "bold"
+                },
+                {
+                  "offset": 74,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 90,
+                  "length": 6,
+                  "type": "bold"
+                },
+                {
+                  "offset": 129,
+                  "length": 9,
+                  "type": "bold"
+                },
+                {
+                  "offset": 155,
+                  "length": 13,
+                  "type": "bold"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "whatsapp": {
+        "attempted": true,
+        "success": false,
+        "error": "Twilio Error: 400 - Twilio could not find a Channel with the specified From address"
+      }
+    },
+    "status": "partial"
+  }
+]

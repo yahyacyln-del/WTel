@@ -198,13 +198,11 @@ process.on('uncaughtException', (error) => {
     process.exit(1);
 });
 
-const PORT = config.server.port;
-const HOST = config.server.host;
+const PORT = process.env.PORT || 10000;
+const HOST = '0.0.0.0';
 
 const server = app.listen(PORT, HOST, () => {
-    logger.info(`TradingView Alarm Relay Server started on ${HOST}:${PORT}`);
-    logger.info('Configuration loaded successfully');
-    logger.info('Ready to receive TradingView webhooks');
+    console.log(`Server started on ${HOST}:${PORT}`);
 });
 
 module.exports = app;

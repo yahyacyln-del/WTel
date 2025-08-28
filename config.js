@@ -4,7 +4,7 @@ const path = require('path');
 // Default configuration
 const defaultConfig = {
     server: {
-        port: process.env.PORT || 5000,
+        port: process.env.PORT || 10000,
         host: '0.0.0.0'
     },
     telegram: {

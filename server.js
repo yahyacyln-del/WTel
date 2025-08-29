@@ -97,7 +97,7 @@ app.get('/', (req, res) => {
         </head>
         <body>
             <div class="container">
-                <h1>🚨 TradingView Alarm Relay System</h1>
+                <h1>🚨 TradingView Alarm System</h1>
                 
                 <div class="status">✅ Sistem Aktif - Çalışma Süresi: ${Math.round(process.uptime())} saniye</div>
                 
@@ -113,20 +113,49 @@ app.get('/', (req, res) => {
                 <p><strong>3.</strong> Message kısmına şu JSON'u yazın:</p>
                 
                 <div class="url-box">
-                    <pre>{
+                   <h3>📋 TradingView Mesaj Şablonları:</h3>
+
+<h4>🔥 Basit Alım/Satım:</h4>
+<div class="url-box">
+<pre>{
   "symbol": "{{ticker}}",
   "price": "{{close}}",
-  "message": "{{strategy.order.comment}}",
-  "timeframe": "{{interval}}",
-  "exchange": "{{exchange}}"
+  "action": "{{strategy.order.action}}",
+  "message": "{{strategy.order.comment}}"
 }</pre>
+</div>
+
+<h4>📊 Detaylı Analiz:</h4>
+<div class="url-box">
+<pre>{
+  "symbol": "{{ticker}}",
+  "price": "{{close}}",
+  "volume": "{{volume}}",
+  "timeframe": "{{interval}}",
+  "exchange": "{{exchange}}",
+  "rsi": "{{plot_0}}",
+  "message": "{{strategy.order.comment}}"
+}</pre>
+</div>
+
+<h4>🎯 Strateji Sinyali:</h4>
+<div class="url-box">
+<pre>{
+  "coin": "{{ticker}}",
+  "fiyat": "{{close}}",
+  "sinyal": "{{strategy.order.action}}",
+  "zaman": "{{time}}",
+  "mesaj": "{{strategy.order.comment}}",
+  "lot": "{{strategy.order.contracts}}"
+}</pre>
+</div>
                 </div>
                 
                 <h3>📱 Entegrasyonlar:</h3>
                 <p>✅ Telegram: Aktif</p>
                 <p>✅ WhatsApp: Aktif (Twilio)</p>
                 
-                <h3>🔧 WhatsApp Twilio Ayarları:</h3>
+                <h3>🔧 WhatsApp Ayarları:</h3>
                 <p><strong>Twilio Console</strong> > <strong>WhatsApp Sandbox</strong>'a gidin:</p>
                 <ol>
                     <li><strong>Twilio Console</strong> > <strong>Messaging</strong> > <strong>Try it out</strong> > <strong>Send a WhatsApp message</strong></li>

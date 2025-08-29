@@ -49,7 +49,7 @@ app.get('/', (req, res) => {
     const { password } = req.query;
     
     const LOGIN_PASSWORD = process.env.LOGIN_PASSWORD || 'alarm123';
-    if (password !==82131156Yh.) {
+if (password !== LOGIN_PASSWORD) {
         return res.send(`
             <!DOCTYPE html>
             <html>

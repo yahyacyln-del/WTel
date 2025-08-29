@@ -76,7 +76,8 @@ app.get('/', (req, res) => {
     
     // Şifre doğruysa sistem bilgileri göster
     const currentUrl = req.protocol + '://' + req.get('host');
-    const webhookUrl = currentUrl + '/webhook/tradingview';
+    // Manuel olarak doğru URL'yi set edin
+    const webhookUrl = 'https://wtel.onrender.com/webhook/tradingview';
     
     res.send(`
         <!DOCTYPE html>
